@@ -5,7 +5,7 @@ function flipTo(digit, n){
     digit.querySelector(".back").dataset["content"] = n;
     digit.querySelector(".under").dataset["content"] = n;
     digit.querySelectorAll(".flap").forEach((ele) =>{
-        ele.style.display = "block;"
+        ele.style.display = "block";
     });
 
     setTimeout(

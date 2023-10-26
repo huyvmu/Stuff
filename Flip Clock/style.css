@@ -6,6 +6,14 @@
     --text-colour: #ffffff;
     --text-colour-dark: #a6a6a6;
 }
+html{
+    background-color: gray;
+}
+
+body {
+    margin-top: 200px;
+    margin-left: 220px;
+}
 
 .clock{
     display: flex;
@@ -98,13 +106,13 @@
 
 @keyframes flip-down-front{
     0% {
-        transform: rotateX(180deg);
+        transform: rotateX(0deg);
         background-color: var(--flip-colour);
         color: var(--text-colour);
     }
 
     100% {
-        transform: rotateX(0deg);
+        transform: rotateX(180deg);
         background-color: var(--flip-colour-dark);
         color: var(--text-colour-dark);
     }
